@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name_highlight{
     color: orange;
 }
@@ -23,14 +26,45 @@ h1{
     background-repeat:no-repeat;
 }
 section{
-    height: 500px;
+    height: 617px;
+    padding-bottom: 150px;
 }
-.btn_hero{
+.btn{
     cursor: pointer;
     text-decoration: none;
     color: #fff;
-    background-image: linear-gradient(light);
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: 700;
+}
+.dream_area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+}
+.experience_box{
+    box-shadow:10px 10px 40px gray;
+    border-radius: 8px;
+    height: 80%;
+
+}
+.experience_area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-image: linear-gradient(90deg,purple,lime);
+    color: #fff;
 }
